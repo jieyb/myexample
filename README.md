@@ -299,7 +299,4 @@ public ShiroFilterFactoryBean getShiroFilterFactoryBean(@Qualifier("securityMana
 }
 ```
 ### 4、测试
-浏览器访问 `localhost:8088` ,在没有登录的情况下会默认跳转到登录页面，如下：
-![This is an image](\img\test_002.jpg)
-#### 登录后
-<img height="200" src="\img\test_002.jpg" width="500"/>
+浏览器访问 `localhost:8088` ,在没有登录的情况下会默认跳转到登录页面，之后输入账号/密码: admin/123 登录即可。
